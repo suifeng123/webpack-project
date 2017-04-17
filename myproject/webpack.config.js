@@ -6,7 +6,7 @@ var commsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 
 module.exports = {
     //插件项
-    plugins: [commonsPlugin],
+    plugins: [],
     //页面入口文件配置
     entry: {
         index: './src/js/page/index.js'
@@ -35,4 +35,4 @@ module.exports = {
         }
     }
 
-}
+};
