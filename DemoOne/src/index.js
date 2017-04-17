@@ -1,3 +1,3 @@
-/**
- * Created by Administrator on 2017/4/17.
- */
+//require("!style!css!./css/style.css");
+
+require("./style.css");
